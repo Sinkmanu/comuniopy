@@ -13,7 +13,9 @@ This is a simple API to get the information of your comunio account. Comunio is 
 Instalation
 -----------
 
-< python setup.py install >
+``` 
+python setup.py install 
+```
 
 
 Usage
@@ -21,7 +23,7 @@ Usage
 
 ### Login your account and get the information
 
-<
+
 	>>> from comuniopy import Comunio
 	>>> test = Comunio(USER,PASS,LEAGUE)
 	>>> test.login()
@@ -29,6 +31,6 @@ Usage
 	>>> money = test.getMoney()
 	>>> teamvalue = test.teamValue()
 
->
+```
 
 
