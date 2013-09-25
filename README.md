@@ -23,7 +23,7 @@ Usage
 
 ### Login into your account and get the information
 
-
+```
 	>>> from comuniopy import Comunio
 	>>> test = Comunio(USER,PASS,LEAGUE)
 	>>> test.login()
