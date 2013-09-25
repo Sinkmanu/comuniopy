@@ -10,7 +10,7 @@ Intro
 This is a simple API to get the information of your comunio account. Comunio is a webgame where You are a manager of a team.
 
 
-Instalation
+Installation
 -----------
 
 ``` 
@@ -61,7 +61,7 @@ position	uid	player	points	teamvalue
 ``` 
 #### info_player(userid):list
 ```
-get the	information of a player and return a list with::
+get the	information of a player and return a list with:
 name	email	community_name	points	name	number_notices	list_of_players
 ```
 #### lineup_player(userid):list
