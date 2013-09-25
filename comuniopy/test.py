@@ -13,28 +13,30 @@ print "Money: %s"%test.getMoney()
 print "TeamValue: %s"%test.getTeamvalue()
 print "Title: %s"%test.getTitle()
 
-#print '[*] Clasificacion:'
+print '[*] Clasificacion:'
 
-#time.sleep(1)
-#for i in test.standings():
-#    print i
+time.sleep(1)
+for i in test.standings():
+    print i
     
 time.sleep(1)
 
-#print '[*] INFO USER: \n%s'%test.info_player('') 
 
 
-#time.sleep(1)
-#for i in test.info_player(''):
-#    print i
+print '[*] Info_player test:\n'
+time.sleep(1)
+for i in test.info_player(test.getplayerID('player')):
+    print i
 
-#time.sleep(1)
-#for i in test.lineup_player(''):
-#    print i
+print '[*] lineup_player test:\n'
+time.sleep(1)
+for i in test.lineup_player(test.getplayerID('player')):
+    print i
 
-#time.sleep(1)
-#for i in test.info_comunity(''):
-#    print i
+print '[*] info_comunity test:\n'
+time.sleep(1)
+for i in test.info_comunity('communityID'):
+    print i
 
 #plist = []
 
