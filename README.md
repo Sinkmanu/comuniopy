@@ -30,40 +30,43 @@ Usage
 	>>> uid = test.getID()
 	>>> money = test.getMoney()
 	>>> teamvalue = test.teamValue()
-
 ```
 ### Get the latest news from your community
 
 ```
 	>>> from comuniopy import Comunio
-        >>> test = Comunio(USER,PASS,LEAGUE)
-        >>> test.login()
+	>>> test = Comunio(USER,PASS,LEAGUE)
+	>>> test.login()
 	>>> news = []
 	>>> news = test.getNews()
-
 ```
 
 ### Functions and methods
 
 #### login()
 #### logout()
-#### load_info() #included in login()
+#### load_info() 
+```
+This function is included in login()
+```
 #### getMoney():string
 #### getID():string
 #### getTeamvalue():string
 #### getTitle():string
 #### getNews():list
-#### stanfings():list
+#### standings():list
 ```
+get the standings of the community and return a list with the elements:
 position	uid	player	points	teamvalue
 ``` 
 #### info_player(userid):list
 ```
+get the	information of a player and return a list with::
 name	email	community_name	points	name	number_notices	list_of_players
 ```
 #### lineup_player(userid):list
 ```
-name_of_players
+return a list with the name of players
 ```
 #### info_comunity(teamid):list
 ```
@@ -75,6 +78,7 @@ name,position,team,points,price
 ```
 #### getClub(clubid):(string,list)
 ```
+return a tuple with the name and a list:
 name,[player list]
 ```
 #### getteamID(team):string
@@ -91,14 +95,17 @@ name,[player list]
 ```
 #### exchangeMarket():list
 ```
+return a list with:
 name,team,minimum price,market value,points,date,owner,position
 ```
 #### getBidding():list
 ```
+return a list with:
 name,bidder,team,money,date,datechange,status
 ```
 #### getYourbids():list
 ```
+return a list with:
 name,bidder,team,money,date,datechange,status
 ```
 
