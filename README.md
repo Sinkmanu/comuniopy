@@ -7,7 +7,7 @@ Comunio API Python
 Intro
 -----
 
-This is a simple API to get the information of your comunio account. Comunio is a webgame where You are a manager of a team.
+It is a simple API to get the information of your comunio account. Comunio is a web game where You are a manager of a team.
 
 
 Installation
